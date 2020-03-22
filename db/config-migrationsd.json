@@ -1,0 +1,27 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "RtAvs4SgQLHasbNf",
+    "database": "acquisition_system",
+    "host": "database-jatrikoi.co9kkzrrdg4n.ap-south-1.rds.amazonaws.com",
+    "port": 5432,
+    "dialect": "postgres",
+    "operatorsAliases": false
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "operatorsAliases": false
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "operatorsAliases": false
+  }
+}
